@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<!-- <html lang="ru"> этот атрибут писать вместо <html> или вместе с ним? -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description"  content="Горян Егор. Сайт-визитка. Краткая биография начинающего WEB-разработчика">
+        <meta name="author" lang="ru" content="Горян Егор">
+        <meta name="keywords" content="Yehor Horian,Yehor Horian Ruslanovich,Горян Єгор,Горян,Горян Егор,Горян Егор Русланович, Goryan Egor">
+        <meta name="robots" content="all">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Сайт-визитка \ Horian Yehor</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="customIcons/iconsFont.css">
+    </head>
+
+
+    <body>
+        <div class="wrapper">
+            <!-- --------------------- Шапка ------------------- -->
+            <div class="header">
+                <div class="header__container">
+                    <a href="" class="header__logo"></a>
+                    <div class="header__menu menu">
+                        <div class="menu__icon">
+                            <span></span>
+                        </div>
+                        <nav class="menu__body">
+                            <ul class="menu__list">
+                                <li><a data-goto=".menu__section_aboutMe" href="#" class="menu__link">Обо мне</a></li>
+                                <li><a data-goto=".menu__section_work" href="#" class="menu__link">Текущее место работы</a></li>
+                                <li>
+                                    <a href="" class="menu__link">Мои работы</a>
+                                    <span class="menu__arrow"></span>
+                                    <ul class="menu__sub-list">
+                                        <li>
+                                            <a href="#" class="menu__sub-link">Test 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu__sub-link">Test 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="menu__sub-link">Test 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a data-goto=".menu__section_hobie" href="#" class="menu__link">Мои Увлечения</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------- раздел "Приветствие" ------------------- -->
+            <div class="content">
+                <div class="block">
+                    <div class="container">
+                        <hr class="hr__shelf">
+                        <div class="block__row">
+                            <div class="block__image anim-items anim-no-hide">
+                                <picture>
+                                    <source srcset="image/patrik-computer.webp" type="image/webp" media="(min-width: 1170px)">
+                                    <source srcset="image/patrik-tablet.webp" type="image/webp" media="(min-width: 767px)">
+                                    <source srcset="image/patrik-mobile.webp" type="image/webp" media="(max-width: 767px)">
+                                    <img src="image/jpg-image.jpg" alt="Портрет Горяна Егора">
+                                </picture>
+                            </div>
+                                <div class="block__hi">
+                                    <div class="block__hi_1 anim-items anim-no-hide">Привет, меня зовут Егор и ты попал(а) на мой сайт-визитку!</div>
+                                    <div class="block__hi_2 anim-items anim-no-hide">Моя цель стать Junior Front-End Developer</div>
+                                    <div class="block__hi_3 anim-items anim-no-hide">Мой девиз "Век живи - век учись"</div>
+                                </div>
+                        </div>   
+                    </div>
+                    <hr class="hr__shelf">
+                </div>
+            </div>
+                <!-- --------------------- раздел "Обо мне" ------------------- -->
+            <div class="contact__block">
+                    <h2 class="cards__tiltle menu__section_aboutMe">Обо мне</h2> 
+                        <div class="aboutMe__parent">
+                            
+                             <div class="aboutMe">
+                                <div class="aboutMe__block">
+                                    <div class="aboutMe__block_content">
+                                        <div class="aboutMe__block_front"><img src="image/варианты для раздела обо мне (сайт pablo - темній фильтр)/данные.png"></div>
+                                        <div class="aboutMe__block_back">
+                                            <div class="block__content_left">
+                                                <ul>
+                                                    <li>ФИО:</li>
+                                                    <li>Проживаю:</li>
+                                                    <li>Полных лет:</li>
+                                                    <li>Семейное положение:</li>
+                                                    <li>График работы:</li>
+                                                </ul>
+                                            </div>
+                                            <div class="block__content_right">
+                                                <ul>
+                                                    <li>Горян Егор</li>
+                                                    <li>г. Запорожье</li>
+                                                    <li>27</li>
+                                                    <li>Не женат</li>
+                                                    <li>Полный день</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="aboutMe">
+                                <div class="aboutMe__block">
+                                    <div class="aboutMe__block_content">
+                                        <div class="aboutMe__block_front"><img src="image/варианты для раздела обо мне (сайт pablo - темній фильтр)/образование.png"></div>
+                                        <div class="aboutMe__block_back">
+                                            <div class="block__content_left">
+                                                <span>Открытый<br>международный университет<br>развития человека "Украина"<br>
+                                                    <a href="donwland/diplom magistr.webp" target="blank">Экономическая кибернетика</a></span>
+                                            </div>
+                                            <div class="block__content_right">
+                                                <span>Компьютерная академия "Шаг"<br><a href="donwland/diplom step.webp" target="blank">
+                                                    Сетевые технологии и системное администрирование</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="aboutMe">
+                                <div class="aboutMe__block">
+                                    <div class="aboutMe__block_content">
+                                        <div class="aboutMe__block_front"><img src="image/варианты для раздела обо мне (сайт pablo - темній фильтр)/навыки.png"></div>
+                                        <div class="aboutMe__block_back">
+                                            <div class="block__content_center">
+                                                <ul>
+                                                    <li class="_icon-html"> HTML</li>
+                                                    <li class="_icon-css"> CSS</li>
+                                                    <li class=""> JS</li>
+                                                    <li class="_icon-learn"> Быстро обучаться</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="aboutMe">
+                                <div class="aboutMe__block">
+                                    <div class="aboutMe__block_content">
+                                        <div class="aboutMe__block_front"><img src="image/варианты для раздела обо мне (сайт pablo - темній фильтр)/контакты.png"></div>
+                                        <div class="aboutMe__block_back">
+                                            <div class="block__content_center">
+                                                <ul>
+                                                    <li><a href="mailto:egor.ruslanovich@gmail.com" class="_icon-dog_email"> egor.ruslanovich@gmail.com</a></li>
+                                                    <li><a href="tel:+380952407500" class="_icon-phone_medium"> 095 240 75 00</li></a>
+                                                    <li><a href="https://t.me/Yehor_Horian" target="blank" class="_icon-telegram"> Telegram</li></a>
+                                                    <li><a href="https://www.instagram.com/mr.ego_0r/" class="_icon-instagram" target="blank"> Instagram</li></a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+            </div>
+            <!-- --------------------- раздел "Текущее место работы" / Work ------------------- -->
+            <div class="work__block">
+                <hr class="hr__inclined__left">
+                <h2 class="cards__tiltle menu__section_work">Текущее место работы</h2>
+                <div class="work__content page__section_work">
+                    <div class="work__text anim-items">
+                        <div class="work__text__top">
+                            <p>С конца 2016г. по 2019г. я прошел путь от помошника системного администратора без категории, до начальника службы
+                                автоматизации технологических процессов и программного сопровождения (дальше по тексту "служба АТП и ПС") в КП "Водоканал" города Запорожье.
+                                Последнюю должность я занимаю с 2020г. и по сей день. Главная цель этой должности это автоматизировать и знакомить предприятие с IT направлением.
+                                На предприятии работает приблизительно 2800 человек, которые в свою очередь предоставляют услуги водоснабжения и водоотведения городу
+                                с населением приблизительно в 800 тысяч жителей. Современные реалии заставляли и продолжают заставлять быстро и в огромном количестве
+                                реализовывать IT проекты на предприятии, куратором и главным ответсвенным которых являеться начальник службы АТП и ПС.</p>
+                        </div>
+                        <hr class="break">
+                        <div class="work__text__bottom">
+                            <ul>
+                                <li class="_icon-pptx"> Подробная <a href="donwland/Презентация службы АТП и ПС.pptx" download target="_blank">презентация</a> о проделанной работе на предприятии за последние годы</li>
+                            </ul>
+                            <ul>
+                                <li class="_icon-pptx_light"> Организационная <a href="donwland/Структура службы АТП и ПС.pdf" download target="_blank">структура</a> службы АТП и ПС</p></li>
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class="work__map anim-items"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5358.408697653902!2d35.17373679144898!3d47.816257362166766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f
+                        13.1!3m3!1m2!1s0x40dc674a4396dc63%3A0xa243289607cfea23!2z0JrQnyDQktC-0LTQvtC60LDQvdCw0Ls!5e0!3m2!1sru!2sua!4v1629397593721!5m2!1sru!2sua" width="585" height="500" style="border:0;"
+                        allowfullscreen="" loading="lazy"></iframe></div>
+                </div>
+            </div>
+            <!-- --------------------- раздел "Мои работы" / My project ------------------- -->
+            <div class="contact__block">
+                <hr class="hr__inclined__right">
+                <h2 class="cards__tiltle">Мои работы</h2> 
+                <div class="contact__content">
+                    <div class="plug">
+                        <img src="https://agroline.optorg.ru/upload/medialibrary/c12/Razdel_v_razrabotke.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+           <!-- --------------------- раздел "Мои увлечения" ------------------- -->
+           <!-- убрать section в соответсвующие разделы (подписать каждое увлечение для облегченного поиска) -->
+           <section class="cards">
+            <hr class="hr__inclined__left">
+            <h2 class="cards__tiltle menu__section_hobie">Мои Увлечения</h2>
+            <div class="cards__row">
+                <div class="cards__column">
+                    <div class="cards__item anim-items">
+                        <div class="cards__image">
+                            <img src="image/gym.webp" alt="Горян Егор в спортзале">
+                        </div>
+                        <div class="cards__body">
+                            Могу годами пропускать тренировки в спортзал, ввиду других приоритетов в жизни,
+                            но всегда посещаю при наличии свободного времени 💪
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__column">
+                    <div class="cards__item anim-items">
+                        <div class="cards__image">
+                            <img src="image/snowboard.webp" alt="Горян Егор на сноуборде">
+                        </div>
+                        <div class="cards__body">
+                           Сноуборд – зимний вид спорта, заключающийся в экстремальном и скоростном спуске с заснеженных склонов и гор.
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__column">
+                    <div class="cards__item anim-items">
+                        <div class="cards__image">
+                            <img src="image/сarpfishing.webp" alt="Горян Егор на рыбалке">
+                        </div>
+                        <div class="cards__body">
+                            Карпфишинг – вид трофейной рыбалки, в основе данного вида ловли лежит один неприкасаемый принцип
+                            «поймал — отпусти».
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__column">
+                    <div class="cards__item anim-items">
+                        <div class="cards__image">
+                            <img src="image/kvadrik.webp " alt="Горян Егор на квадроцикле">
+                        </div>
+                        <div class="cards__body">
+                            Квадроцикл – это четырёхколёсная внедорожная техника с рулём и посадкой мотоциклетного типа,
+                            предназначенен для езды по бездорожью. 
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__column">
+                    <div class="cards__item anim-items">
+                        <div class="cards__image">
+                            <img src="image/enduro.jpg" alt="Горян Егор на мотоцыкле">
+                        </div>
+                        <div class="cards__body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos vel eius, inventore eaque
+                            aliquid voluptas porro sed. Molestias, nisi aliquam.
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__column">
+                    <div class="cards__item anim-items">
+                        <div class="cards__image">
+                            <img src="image/football.webp" alt="Горян Егор играет в футбол">
+                        </div>
+                        <div class="cards__body">
+                            Футбол - это самый популярный и массовый вид спорта, заряжающий энергией, запалом и
+                            стремлением к победе.
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__column">
+                    <div class="cards__item anim-items anim-items">
+                        <div class="cards__image">
+                            <img src="image/daiving.webp" alt="Горян Егор на дайвинге">
+                        </div>
+                        <div class="cards__body">
+                            Дайвинг – это возможность расслабиться и погрузиться в бурлящий жизнью мир, полный
+                            тайн и приключений.
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__column">
+                    <div class="cards__item anim-items anim-items">
+                        <div class="cards__image">
+                            <img src="image/flyboard.jpg" alt="Горян Егор на флайборде">
+                        </div>
+                        <div class="cards__body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sequi illo dolores
+                            mollitia veritatis quos quidem nisi delectus odit saepe.
+                        </div>
+                    </div>
+                </div>
+            </div>                
+            </section>
+            <!-- --------------------- Футер ------------------- -->
+            <div class="footer">
+                <div class="container">
+                    <div class="footer__row">
+                        <div class="footer__text">© Горян Егор, 2021</div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------- Кнопка прокрутки вверх / button scroll to top------------------- -->
+            <div class="buttonUp" id="buttonId">
+                <button>TOP</button>
+                <!-- без JS прыгает в шапку -->
+                <!-- <a href="#" title="Вернуться наверх" class="buttonToUp"><img src="image/iconArrowToTop.png"></a> -->
+            </div>
+
+            <script src="JS.js"></script>
+        </div>
+    </body>
+</html>
